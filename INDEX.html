@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARTIN GICHUKI MBAU</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b338353ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---------header------>
+    <div id="header">
+        <div class="container">
+            <nav style=" width :fit-content; margin-left: auto;">
+                <ul id="sidemenu" >
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Data analyst</p>
+            <h1>Hi, i  am <span>Martin</span> your all time data scientist</h1>
+            </div>
+        </div>
+    </div>
+    <!---about----------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <!--------image--------->
+               <img src="images/cool.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>add some description text about me<br>brief and detailed </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Expereince</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents  active-tab" id="skills">
+                    <ul>
+                        <li><span>UX/UI</span><br>web designing</li>
+                        <li><span>Data analysis</span><br>All data visualization and analysis</li>
+                        <li><span>web development</span><br>web app development</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Data project</span><br>used MATLAB to make data analysis for 5000 entries.</li>
+                        <li><span>Online shopping store</span><br>made an online shopping store using Django and javascript</li>
+                        <li><span>Weather prediction</span><br>made a weather prediction system using machine learning and python</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-current</span><br>Jomo Kenyatta univerity of agriculture and technology pursuing bachelors of mathematics and computer science</li>
+                        <li><span>May-august 2022</span><br>python bootcamp with angela ling</li>
+                        <li><span>january-april</span><br>machine learning at codecademy</li>
+                        <li><span>2015-2018</span> Went to igikiro boys highschool </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!----services---->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>data analysis</h2>
+                <p>I offer data analysis services using modern analysis tools to helb organizations in their decision making and profit maximization</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+               <!--------- add icons here from fontawesome.com----------->
+               <i class="fa-solid fa-mug-hot"></i>
+                <h2>web designing</h2>
+                <p>I offer front end webdevelopment services for personal use and large corporations</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-stack-overflow"></i>
+                <h2>Data automation</h2>
+                <p>I employ machine learning skills to automate large stacks of data for future predictions</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+   </div>
+   <!-----------portfolio--------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <!-------add an image to display work-->
+                <img src="images/coins.jpg">
+                <div class="layer">
+                    <h3>Online shop</h3>
+                    <p>This shop links you to the trending fashion in the world at an affordable prices</p>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!-------add an image to display work-->
+                <img src="images/data.jpg">
+                <div class="layer">
+                    <h3>Data analysis</h3>
+                    <p>This system reads external data files and performs simple statistical models</p>
+                    <a href="#"><i class="fa-solid fa-database"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!-------add an image to display work-->
+                <img src="images/code.jpg">
+                <div class="layer">
+                    <h3>Weather prediction</h3>
+                    <p>This system uses machine learning to predict future outcomes and in this case, Weather</p>
+                    <a href="#"><i class="fa-solid fa-cloud-moon"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </dhiv>
+   </div>
+   <!-----------------contact-------------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>gichukimbau@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0792203101</p>
+            <div class="social-icons">
+                <!------add facebook icon-->
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/martin-mbau-658962229?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BniaFkJqwTGyv4lK543Jqpg%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div>
+                <a href="images/RESUME.docx" download class="btn btn2">Download CV</a>
+            </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@ Martin. Little star <i class="fa-solid fa-star"></i> in the hands of a working God</p>
+    </div>
+   </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links")
+        var tabcontents= document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxdr9jwJU604nnMt6_FdsVw3_jh1QUuT6wNLCxtl6q6IrjBemlEqEoKbA-MJCv6KgM8/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html> 
+ 
